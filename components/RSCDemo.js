@@ -1,6 +1,6 @@
-// import ClientDemo from './ClientDemo';
+// import ClientDemo from "./ClientDemo";
 
-export default async function RSCDemo() {
+export default function RSCDemo() {
   console.log("RSCDemo rendered");
   return (
     <div className="rsc">
@@ -11,7 +11,7 @@ export default async function RSCDemo() {
       <p>
         <strong>NEVER</strong> on the client-side!
       </p>
-      {/* <ClientDemo /> */}
+      {/* <ClientDemo /> It's possible */}
     </div>
   );
 }
