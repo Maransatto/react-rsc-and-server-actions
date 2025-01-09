@@ -1,14 +1,14 @@
-import ClientDemo from "@/components/ClientDemo";
-import RSCDemo from "@/components/RSCDemo";
+import DataFetchingDemo from "@/components/DataFetchingDemo";
 
 export default function Home() {
   return (
     <main>
       {/* Server components can include client components */}
       {/* Client components can't include Server components, unless they are passed as children */}
-      <ClientDemo>
+      {/* <ClientDemo>
         <RSCDemo />
-      </ClientDemo>
+      </ClientDemo> */}
+      <DataFetchingDemo />
     </main>
   );
 }
